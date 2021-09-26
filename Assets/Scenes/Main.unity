@@ -484,5 +484,9 @@ PrefabInstance:
       propertyPath: myCanvas
       value: 
       objectReference: {fileID: 140032773}
+    - target: {fileID: 7771735891838505576, guid: e2841d0e70c41734dbc1e241eb3b7663, type: 3}
+      propertyPath: isBackButton
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2841d0e70c41734dbc1e241eb3b7663, type: 3}

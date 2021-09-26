@@ -5,6 +5,7 @@ using UnityEngine;
 public class Screen : MonoBehaviour
 {
     public GameObject myCanvas;
+    public int DirectionModifier = 1; // Set the direction of the screen animation for forward or back buttons
 
     void Start()
     {
@@ -24,7 +25,9 @@ public class Screen : MonoBehaviour
             myCanvas = this.transform.parent.gameObject;
 
         var rt = this.GetComponent<RectTransform>();
-        rt.anchoredPosition = new Vector2(myCanvas.GetComponent<RectTransform>().rect.width, 0);
+        rt.anchoredPosition = new Vector2(myCanvas.GetComponent<RectTransform>().rect.width * DirectionModifier, 0);
+
+        Debug.Log(DirectionModifier);
 
         StartCoroutine("SlideInPlace", rt);
     }
@@ -34,6 +37,9 @@ public class Screen : MonoBehaviour
         // At some point we'll need to add a function to kill all functionality of all children
 
         var rt = this.GetComponent<RectTransform>();
+
+        Debug.Log(DirectionModifier);
+
         StartCoroutine("Removal", rt);
     }
 
@@ -44,7 +50,7 @@ public class Screen : MonoBehaviour
         while (!isDone)
         {
             rt.anchoredPosition = Vector2.Lerp(rt.anchoredPosition, new Vector2(0, 0), 4f * Time.deltaTime);
-            isDone = (rt.anchoredPosition.x <= 0.01f) ? true : false;
+            isDone = (Mathf.Abs(rt.anchoredPosition.x) <= 0.01f) ? true : false;
             yield return null;
         }
 
@@ -58,8 +64,8 @@ public class Screen : MonoBehaviour
 
         while (!isDone)
         {
-            rt.anchoredPosition = Vector2.Lerp(rt.anchoredPosition, new Vector2(target - 10f, 0), 4f * Time.deltaTime);
-            isDone = (rt.anchoredPosition.x <= target) ? true : false;
+            rt.anchoredPosition = Vector2.Lerp(rt.anchoredPosition, new Vector2((target - 10f) * DirectionModifier, 0), 4f * Time.deltaTime);
+            isDone = (Mathf.Abs(rt.anchoredPosition.x) >= Mathf.Abs(target)) ? true : false;
 
             yield return null;
         }

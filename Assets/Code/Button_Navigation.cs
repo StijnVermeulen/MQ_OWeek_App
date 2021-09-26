@@ -8,6 +8,8 @@ public class Button_Navigation : MonoBehaviour
     Button myButton;                        // The 'Button' component
     public GameObject NavigationTarget;     // The screen this button is meant to navigate to
 
+    public bool isBackButton = false;              // Determines the direction of the screen animation
+
     void Start()
     {
         myButton = this.GetComponent<Button>();
@@ -30,5 +32,9 @@ public class Button_Navigation : MonoBehaviour
     {
         GameObject newScreen = Instantiate(NavigationTarget, this.transform.parent.parent);
         newScreen.transform.SetParent(this.transform.parent.parent);
+
+        int dirmod = (isBackButton) ? -1 : 1;   // if backbutton, set direction to -1
+        newScreen.GetComponent<Screen>().DirectionModifier = dirmod;
+        this.transform.parent.GetComponent<Screen>().DirectionModifier = dirmod;
     }
 }
