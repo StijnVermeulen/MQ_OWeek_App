@@ -53,8 +53,11 @@
     <UnityVersion>2020.3.19f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Code\Screen.cs" />
     <Compile Include="Assets\Code\Button_Navigation.cs" />
+    <Compile Include="Assets\Code\Screen.cs" />
+    <Compile Include="Assets\VirtualMapAssets\PlayerMovement.cs" />
+    <Compile Include="Assets\VirtualMapAssets\CharacterMovement.cs" />
+    <Compile Include="Assets\VirtualMapAssets\BuildingPrompt.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
