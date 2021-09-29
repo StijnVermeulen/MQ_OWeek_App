@@ -74,8 +74,13 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 221}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 160
 --- !u!114 &4
+=======
+  controlID: 101
+--- !u!114 &5
+>>>>>>> 3Dmap
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -152,8 +157,13 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 159
 --- !u!114 &7
+=======
+  controlID: 100
+--- !u!114 &8
+>>>>>>> 3Dmap
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -231,8 +241,13 @@ MonoBehaviour:
   m_MinSize: {x: 881, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
+<<<<<<< HEAD
   controlID: 158
 --- !u!114 &10
+=======
+  controlID: 99
+--- !u!114 &11
+>>>>>>> 3Dmap
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -405,22 +420,36 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets/Scenes
+=======
+    - Assets/VirtualMapAssets
+>>>>>>> 3Dmap
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
+<<<<<<< HEAD
   - Assets/Scenes
+=======
+  - Assets/VirtualMapAssets
+>>>>>>> 3Dmap
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\natst\Documents\UNI\COMP3850\MQ_OWeek_App
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: ec3d0000
     m_LastClickedID: 15852
     m_ExpandedIDs: 00000000e63d000000ca9a3b
+=======
+    m_SelectedIDs: f43c0000
+    m_LastClickedID: 15604
+    m_ExpandedIDs: 00000000bc3c000000ca9a3b
+>>>>>>> 3Dmap
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -629,9 +658,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 73.324265, y: 195.88086, z: -7.513037}
     speed: 2
     m_Value: {x: 73.324265, y: 195.88086, z: -7.513037}
+=======
+    m_Target: {x: 0.9164601, y: 1.2792976, z: 5.74066}
+    speed: 2
+    m_Value: {x: 0.9164601, y: 1.2792976, z: 5.74066}
+>>>>>>> 3Dmap
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -678,6 +713,7 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
@@ -685,6 +721,15 @@ MonoBehaviour:
     m_Target: 253.12193
     speed: 2
     m_Value: 253.12193
+=======
+    m_Target: {x: -0.32447264, y: 0.35806963, z: -0.13429202, w: -0.86515844}
+    speed: 2
+    m_Value: {x: -0.3244678, y: 0.3580643, z: -0.13429002, w: -0.86514556}
+  m_Size:
+    m_Target: 614.7016
+    speed: 2
+    m_Value: 614.7016
+>>>>>>> 3Dmap
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -737,9 +782,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: a079ffffa279ffff287dffff7e85ffff8085ffff148dffffa694ffff4695ffff1298ffff1a98ffff1c98ffff5698ffff8898ffff9899ffffd699ffff489affff489bffff989bffffde9cffff8ea0ffff96f2ffff98f2fffff2f5fffffef6ffff36f7ffff36f8ffff18fbffff1afbffff763d0000ee430000da5c0000305f00003c630000fe660000
+=======
+      m_SelectedIDs: 3292ffff
+      m_LastClickedID: -28110
+      m_ExpandedIDs: 364effffdc5fffff3292ffffe6b3ffff02c3ffffeaf3ffff0efaffff52fbffff
+>>>>>>> 3Dmap
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
