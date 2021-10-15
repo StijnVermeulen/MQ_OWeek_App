@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class BuildingPrompt : MonoBehaviour
 {
+    public string buttonText;
+
+    public GameObject myPlayer;
     public GameObject PromptCanvas;
     public GameObject PromptButton;
     Button myPromptButton;
@@ -12,6 +15,11 @@ public class BuildingPrompt : MonoBehaviour
     public GameObject CloseButton;
     Button myCloseButton;
 
+    private void Start()
+    {
+        myPlayer = GameObject.Find("Player");
+        PromptButton.GetComponentInChildren<Text>().text = buttonText;
+    }
 
     private void OnEnable()
     {
@@ -30,19 +38,28 @@ public class BuildingPrompt : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         PromptCanvas.SetActive(true);
+        PromptButton.SetActive(true);
     }
     private void OnTriggerExit(Collider other)
     {
+        InfoPanel.SetActive(false);
         PromptCanvas.SetActive(false);
+        myPlayer.GetComponent<PlayerMovement>().myState = PlayerMovement.PlayerState.Walking;
     }
 
     void OpenInfo()
     {
         InfoPanel.SetActive(true);
+        PromptButton.SetActive(false);
+
+        myPlayer.GetComponent<PlayerMovement>().myState = PlayerMovement.PlayerState.Reading;
     }
     void CloseInfo()
     {
         InfoPanel.SetActive(false);
-        PromptCanvas.SetActive(false);
+        PromptButton.SetActive(true);
+        //PromptCanvas.SetActive(true);
+
+        myPlayer.GetComponent<PlayerMovement>().myState = PlayerMovement.PlayerState.Walking;
     }
 }
