@@ -135,6 +135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NavigationTarget: {fileID: 4648366845163793635}
+  isBackButton: 0
 --- !u!1 &4648366844868023551
 GameObject:
   m_ObjectHideFlags: 0
@@ -380,4 +381,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myCanvas: {fileID: 0}
-  isTransitioning: 0
+  DirectionModifier: 1
