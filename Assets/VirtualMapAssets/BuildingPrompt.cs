@@ -19,6 +19,9 @@ public class BuildingPrompt : MonoBehaviour
     {
         myPlayer = GameObject.Find("Player");
         PromptButton.GetComponentInChildren<Text>().text = buttonText;
+
+        InfoPanel.SetActive(false);
+        PromptCanvas.SetActive(false);
     }
 
     private void OnEnable()
