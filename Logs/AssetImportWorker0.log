@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.19f1 (68f137dc9bbe) revision 6877495'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 16338 MB
+OS: 'Windows 10 Home; OS build 19042.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 16338 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/natst/Documents/UNI/COMP3850/MQ_OWeek_App
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51240
+53450
 Successfully changed project path to: C:/Users/natst/Documents/UNI/COMP3850/MQ_OWeek_App
 C:/Users/natst/Documents/UNI/COMP3850/MQ_OWeek_App
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 39.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 35.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56236
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002779 seconds.
+Registered in 0.002531 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 42.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 33.82 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.639 seconds
+- Completed reload, in  1.508 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1639ms)
-		BeginReloadAssembly (73ms)
+	ReloadAssembly (1508ms)
+		BeginReloadAssembly (70ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (634ms)
-			LoadAssemblies (69ms)
+		EndReloadAssembly (558ms)
+			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (238ms)
+			SetupTypeCache (229ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (265ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (200ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (43ms)
-				BeforeProcessingInitializeOnLoad (10ms)
-				ProcessInitializeOnLoadAttributes (130ms)
-				ProcessInitializeOnLoadMethodAttributes (76ms)
+				RefreshPlugins (34ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (108ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005062 seconds.
+Registered in 0.003805 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.433 seconds
+- Completed reload, in  1.393 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1434ms)
-		BeginReloadAssembly (208ms)
+	ReloadAssembly (1395ms)
+		BeginReloadAssembly (206ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (1128ms)
-			LoadAssemblies (122ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1099ms)
+			LoadAssemblies (120ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (413ms)
+			SetupTypeCache (374ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (399ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (417ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (296ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (320ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1399 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 65.0 MB.
 System memory in use after: 65.1 MB.
 
 Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1836.
-Total: 3.170800 ms (FindLiveObjects: 0.158500 ms CreateObjectMapping: 0.049200 ms MarkObjects: 2.924200 ms  DeleteObjects: 0.036800 ms)
+Total: 3.195500 ms (FindLiveObjects: 0.195200 ms CreateObjectMapping: 0.082900 ms MarkObjects: 2.867800 ms  DeleteObjects: 0.048000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,1004 +131,668 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Images
-  artifactKey: Guid(060490f08d693ea439f8ce4fa226ddb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images using Guid(060490f08d693ea439f8ce4fa226ddb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b17a826d1e6076ba3243cb723cdded2') in 0.013637 seconds 
-  Import took 0.017672 seconds .
+  path: Assets/Images/Old Icons
+  artifactKey: Guid(dd489d03f3815d84d9e342e8eeb76452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Old Icons using Guid(dd489d03f3815d84d9e342e8eeb76452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f67812251b3bb86eacc9e4e2086b7425') in 0.009425 seconds 
+  Import took 0.012756 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000377 seconds.
-  path: Assets/Images/Macquarie icon.png
-  artifactKey: Guid(32d8807423c38964bb1ecccec78abe49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Macquarie icon.png using Guid(32d8807423c38964bb1ecccec78abe49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e1ab1d032e45a2bd97ef47975aebc0') in 0.193422 seconds 
-  Import took 0.196553 seconds .
+  Time since last request: 59.684611 seconds.
+  path: Assets/Typograpgy
+  artifactKey: Guid(a616f5d4339d16c4e82c5d7916b1229e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Typograpgy using Guid(a616f5d4339d16c4e82c5d7916b1229e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e321f3693748493c265cc8b289c04273') in 0.009854 seconds 
+  Import took 0.013592 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Images/instagram-2433265_960_720.png
-  artifactKey: Guid(b5ca2aab92a75aa48b57d3c696a6d38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/instagram-2433265_960_720.png using Guid(b5ca2aab92a75aa48b57d3c696a6d38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6254d4d73d16244af6b899791e2e6707') in 0.027661 seconds 
-  Import took 0.030579 seconds .
+  Time since last request: 7.523255 seconds.
+  path: Assets/Typography
+  artifactKey: Guid(a616f5d4339d16c4e82c5d7916b1229e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Typography using Guid(a616f5d4339d16c4e82c5d7916b1229e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e19a34af632c384be2c4da804d29ddb') in 0.010519 seconds 
+  Import took 0.014296 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/Images/Video-Game-Controller-Icon.svg.png
-  artifactKey: Guid(854a584ce77fa6b4193bf24582cf0586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Video-Game-Controller-Icon.svg.png using Guid(854a584ce77fa6b4193bf24582cf0586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2668dad19dc4ecf41f8fbbd2c279bafa') in 0.019443 seconds 
-  Import took 0.022683 seconds .
+  Time since last request: 32.263758 seconds.
+  path: Assets/Typography/DesktopFonts
+  artifactKey: Guid(cc132ce71f50fa34496c2858fcba8458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Typography/DesktopFonts using Guid(cc132ce71f50fa34496c2858fcba8458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6d019ec9a83ec9f7d6c962c28e546c') in 0.011172 seconds 
+  Import took 0.014314 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000409 seconds.
-  path: Assets/Images/Icon.png
-  artifactKey: Guid(a1acd04c774283f43848ab8befb64c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Icon.png using Guid(a1acd04c774283f43848ab8befb64c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c18d8c737477a43de402cf45900b83') in 0.023807 seconds 
-  Import took 0.028433 seconds .
+  Time since last request: 0.093638 seconds.
+  path: Assets/Typography/DesktopFonts/National-Black.otf
+  artifactKey: Guid(399c0fdf4caac7e41891d830096083fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Typography/DesktopFonts/National-Black.otf using Guid(399c0fdf4caac7e41891d830096083fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bcbc1920c9bc3b59327732957d0ecc1') in 0.190484 seconds 
+  Import took 0.193139 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Images/joede-location-symbol.png
-  artifactKey: Guid(7009c4aea05b6e24d9489d53e80f46cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/joede-location-symbol.png using Guid(7009c4aea05b6e24d9489d53e80f46cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab78e872bf35f71a74be1c0a5fe3c05') in 0.021696 seconds 
-  Import took 0.025715 seconds .
+  Time since last request: 0.000327 seconds.
+  path: Assets/Typography/DesktopFonts/National-BookItalic.otf
+  artifactKey: Guid(f84429ca0f6116445a1aeec62dab9d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Typography/DesktopFonts/National-BookItalic.otf using Guid(f84429ca0f6116445a1aeec62dab9d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a53c4894c3ad2177108def287fd6082') in 0.024335 seconds 
+  Import took 0.028354 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/Images/Info.png
-  artifactKey: Guid(b31995ca1d1c81447996e16a73db2b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Info.png using Guid(b31995ca1d1c81447996e16a73db2b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37fe236412507b2c0f77c8a61a9de993') in 0.031014 seconds 
-  Import took 0.033732 seconds .
+  Time since last request: 0.000349 seconds.
+  path: Assets/Typography/DesktopFonts/National-Semibold.otf
+  artifactKey: Guid(5970a6714a25b724db24dd6b85693291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Typography/DesktopFonts/National-Semibold.otf using Guid(5970a6714a25b724db24dd6b85693291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2fc0da04373111e5bdd69adc686605') in 0.023539 seconds 
+  Import took 0.027725 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Images/Schedule.png
-  artifactKey: Guid(2d21142bd69109b45bfe6e2776277cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Schedule.png using Guid(2d21142bd69109b45bfe6e2776277cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8de3c3dcac05a4f7e4eac43a6f2209c') in 0.019462 seconds 
-  Import took 0.023170 seconds .
+  Time since last request: 0.000330 seconds.
+  path: Assets/Typography/DesktopFonts/National-LightItalic.otf
+  artifactKey: Guid(7a93ea33399f9db4d957a4cc2df24955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Typography/DesktopFonts/National-LightItalic.otf using Guid(7a93ea33399f9db4d957a4cc2df24955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a0f0fb7f1a856277c8aee046bc5e59') in 0.021369 seconds 
+  Import took 0.025650 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Images/Tasks.png
-  artifactKey: Guid(9c3d07bc7ea3fb24086086de32117d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Tasks.png using Guid(9c3d07bc7ea3fb24086086de32117d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495cf36ffa2a178235e52f965a182c3a') in 0.019519 seconds 
-  Import took 0.023117 seconds .
+  Time since last request: 0.000312 seconds.
+  path: Assets/Typography/DesktopFonts/National-ThinItalic.otf
+  artifactKey: Guid(442ec605f5179e44a9a67be01d036826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Typography/DesktopFonts/National-ThinItalic.otf using Guid(442ec605f5179e44a9a67be01d036826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f1a6aee79da733e1dcb5c8929ac6f3b') in 0.021545 seconds 
+  Import took 0.025622 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.088237 seconds.
-  path: Assets/Scenes/Homepage.unity
-  artifactKey: Guid(ffc47a1016deb9b44800172c2714bdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Homepage.unity using Guid(ffc47a1016deb9b44800172c2714bdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c8ea4998969bba659283a4f57083b7') in 0.010212 seconds 
-  Import took 0.013121 seconds .
+  Time since last request: 0.000342 seconds.
+  path: Assets/Typography/DesktopFonts/National-Extrabold.otf
+  artifactKey: Guid(294ae4291e3890a4aaaf369e71289eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Typography/DesktopFonts/National-Extrabold.otf using Guid(294ae4291e3890a4aaaf369e71289eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5262c92173814206f0f364ce58aaae') in 0.023886 seconds 
+  Import took 0.027868 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 34.517407 seconds.
-  path: Assets/Screen_Prefabs/HomeScreen.prefab
-  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/HomeScreen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1333afb6f5481d0903ab9dadb0f7048e') in 0.075047 seconds 
-  Import took 0.077948 seconds .
+  Time since last request: 0.000378 seconds.
+  path: Assets/Typography/DesktopFonts/National-RegularItalic.otf
+  artifactKey: Guid(ef6003e6f2481b344b594072895abe99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Typography/DesktopFonts/National-RegularItalic.otf using Guid(ef6003e6f2481b344b594072895abe99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51196988ba0fe0a7d2b3ba6dea88549') in 0.025787 seconds 
+  Import took 0.029947 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 330.155990 seconds.
-  path: Assets/Scenes/Canvas.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Canvas.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29eea20caf9fda87a6112f78dabb3bdf') in 0.015831 seconds 
-  Import took 0.019797 seconds .
+  Time since last request: 0.000362 seconds.
+  path: Assets/Typography/DesktopFonts/National-ExtraboldItalic.otf
+  artifactKey: Guid(08e136a1f8fab734db220471020c4b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Typography/DesktopFonts/National-ExtraboldItalic.otf using Guid(08e136a1f8fab734db220471020c4b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16c726de0189cf141f62f72261b499f') in 0.021902 seconds 
+  Import took 0.025716 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.803062 seconds.
-  path: Assets/Scenes/Login.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Login.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98457087f4610a75f4adb59ad946f910') in 0.014068 seconds 
-  Import took 0.019063 seconds .
+  Time since last request: 0.000323 seconds.
+  path: Assets/Typography/DesktopFonts/National-BlackItalic.otf
+  artifactKey: Guid(6f716447494dbae4a9061e44735b0eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Typography/DesktopFonts/National-BlackItalic.otf using Guid(6f716447494dbae4a9061e44735b0eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d7dfccf6eace9cdd042954ecbe5000') in 0.020343 seconds 
+  Import took 0.024429 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.651582 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dacadfefbb01f49f2be1ad9aed70b001') in 0.015410 seconds 
-  Import took 0.019878 seconds .
+  Time since last request: 0.000285 seconds.
+  path: Assets/Typography/DesktopFonts/National-BoldItalic.otf
+  artifactKey: Guid(53614843437ef6c4ba20adf8a69ed301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Typography/DesktopFonts/National-BoldItalic.otf using Guid(53614843437ef6c4ba20adf8a69ed301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb6d403ff6a9641b1f79f894810d15ea') in 0.021107 seconds 
+  Import took 0.024045 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.270920 seconds.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Typography/DesktopFonts/National-MediumItalic.otf
+  artifactKey: Guid(fe9d26ab8b7ec864fb88396a18492e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Typography/DesktopFonts/National-MediumItalic.otf using Guid(fe9d26ab8b7ec864fb88396a18492e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e41bbd26f817842e64a1dcbf3530fe') in 0.018101 seconds 
+  Import took 0.021481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Typography/DesktopFonts/National-Bold.otf
+  artifactKey: Guid(02b33c522d46c9049abb26d9d863c07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Typography/DesktopFonts/National-Bold.otf using Guid(02b33c522d46c9049abb26d9d863c07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85f2eb2e2690e824dd08310585d086e') in 0.020613 seconds 
+  Import took 0.024065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Typography/DesktopFonts/National-Thin.otf
+  artifactKey: Guid(0104de6fae776f84b89e40ca70a079f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Typography/DesktopFonts/National-Thin.otf using Guid(0104de6fae776f84b89e40ca70a079f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b94bb005b1c00e506f01f9f10fd63e') in 0.022351 seconds 
+  Import took 0.026353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Typography/DesktopFonts/National-Regular.otf
+  artifactKey: Guid(0c728df8c1080224da5bedba48c871c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Typography/DesktopFonts/National-Regular.otf using Guid(0c728df8c1080224da5bedba48c871c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652d2f5f3d55291a476b023f8e35b20f') in 0.020693 seconds 
+  Import took 0.024401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Typography/DesktopFonts/National-Light.otf
+  artifactKey: Guid(8a7bf46017fadbe4a911e9f513fa5369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Typography/DesktopFonts/National-Light.otf using Guid(8a7bf46017fadbe4a911e9f513fa5369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abfd191c5442b4d8b882c9edc014408b') in 0.021338 seconds 
+  Import took 0.024336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Typography/DesktopFonts/National-SemiboldItalic.otf
+  artifactKey: Guid(78b5439f6e1039745a57bc583c203c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Typography/DesktopFonts/National-SemiboldItalic.otf using Guid(78b5439f6e1039745a57bc583c203c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac236aee9f881d1f4366820b236fdae') in 0.022210 seconds 
+  Import took 0.025728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Typography/DesktopFonts/National-Book.otf
+  artifactKey: Guid(c4fbfb2a827ce944fa1a9048322b3d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Typography/DesktopFonts/National-Book.otf using Guid(c4fbfb2a827ce944fa1a9048322b3d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '541bdc69dc2a8e2c2557b652e5ebb5d8') in 0.022754 seconds 
+  Import took 0.026324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Typography/DesktopFonts/National-Medium.otf
+  artifactKey: Guid(9e100310217ef094e98b8d36e87264eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Typography/DesktopFonts/National-Medium.otf using Guid(9e100310217ef094e98b8d36e87264eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd43160191931221030ffdaad1d5dfe99') in 0.018508 seconds 
+  Import took 0.022031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 276.895001 seconds.
+  path: Assets/Images/MQ_INT_VER_RGB_POS.png
+  artifactKey: Guid(a24343ffd84069a45902c7d8ce7f3e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/MQ_INT_VER_RGB_POS.png using Guid(a24343ffd84069a45902c7d8ce7f3e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a16f754654490a20fb9a2ab0a8e8f1') in 0.073563 seconds 
+  Import took 0.076980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 354.191767 seconds.
+  path: Assets/Scenes/LoginPage.unity
+  artifactKey: Guid(ac2cda01937caac47a8afde7f631cced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LoginPage.unity using Guid(ac2cda01937caac47a8afde7f631cced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77eb17b050def9067440287a0e0b8b3e') in 0.009908 seconds 
+  Import took 0.013562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11306.996480 seconds.
+  path: Assets/Images/This Person Does Not Exist.jpg
+  artifactKey: Guid(ad1d6db795deec34a894fbb1ee217780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/This Person Does Not Exist.jpg using Guid(ad1d6db795deec34a894fbb1ee217780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3569bdec7a8b4c3ee388dd28ff661f') in 0.034931 seconds 
+  Import took 0.038759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 125.061056 seconds.
+  path: Assets/Images/This Person Does Not Exist.jpg
+  artifactKey: Guid(ad1d6db795deec34a894fbb1ee217780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/This Person Does Not Exist.jpg using Guid(ad1d6db795deec34a894fbb1ee217780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd66838e8ab681b94d374f9ad3b3830') in 0.046224 seconds 
+  Import took 0.050139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1316.381972 seconds.
+  path: Assets/Images/red_checklist_icon.png
+  artifactKey: Guid(fec468397c1f2ee4db13646fbe2c2757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/red_checklist_icon.png using Guid(fec468397c1f2ee4db13646fbe2c2757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17905d254ccc749284963247b81f36d3') in 0.027412 seconds 
+  Import took 0.031374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.493551 seconds.
+  path: Assets/Images/dark-red_calendar_icon.png
+  artifactKey: Guid(11acf4f5b62a9cd45ad594d750a50b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/dark-red_calendar_icon.png using Guid(11acf4f5b62a9cd45ad594d750a50b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552292ebbbb6a1ae11293645001dd5a1') in 0.022176 seconds 
+  Import took 0.025988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.270018 seconds.
+  path: Assets/Images/pink_people_icon.png
+  artifactKey: Guid(77e7f31965611604a956ed76b0c1948a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/pink_people_icon.png using Guid(77e7f31965611604a956ed76b0c1948a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e5b02a1eb62f3cfec583743a9af584') in 0.021225 seconds 
+  Import took 0.025212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.488453 seconds.
+  path: Assets/Images/pink_location_icon.png
+  artifactKey: Guid(8dd27813d334b68458d7f36a8d5ee140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/pink_location_icon.png using Guid(8dd27813d334b68458d7f36a8d5ee140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2acc7e2ae2008f6035804b5621a82143') in 0.018912 seconds 
+  Import took 0.022548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.873212 seconds.
+  path: Assets/Images/maroon_book_icon.png
+  artifactKey: Guid(21ee5f909a98834498f1f427f21973f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/maroon_book_icon.png using Guid(21ee5f909a98834498f1f427f21973f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf225a86adadbe12a9cf17128ebe17ac') in 0.016721 seconds 
+  Import took 0.019708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.214464 seconds.
+  path: Assets/Images/dark-red_calendar_icon.png
+  artifactKey: Guid(11acf4f5b62a9cd45ad594d750a50b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/dark-red_calendar_icon.png using Guid(11acf4f5b62a9cd45ad594d750a50b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63726ce14a92441324e80ea06b19699') in 0.021223 seconds 
+  Import took 0.024699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.997538 seconds.
+  path: Assets/Images/maroon_book_icon.png
+  artifactKey: Guid(21ee5f909a98834498f1f427f21973f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/maroon_book_icon.png using Guid(21ee5f909a98834498f1f427f21973f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfbd06f8cbe9da9bc02b5ceb06b1c684') in 0.018333 seconds 
+  Import took 0.021841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.785637 seconds.
+  path: Assets/Images/pink_location_icon.png
+  artifactKey: Guid(8dd27813d334b68458d7f36a8d5ee140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/pink_location_icon.png using Guid(8dd27813d334b68458d7f36a8d5ee140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ef33724c8a6cdc591ff93b6f727f89') in 0.019849 seconds 
+  Import took 0.022994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.767850 seconds.
+  path: Assets/Images/pink_people_icon.png
+  artifactKey: Guid(77e7f31965611604a956ed76b0c1948a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/pink_people_icon.png using Guid(77e7f31965611604a956ed76b0c1948a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b40555d848db16d347fc7bae13e6aa') in 0.015855 seconds 
+  Import took 0.019712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.861493 seconds.
+  path: Assets/Images/red_checklist_icon.png
+  artifactKey: Guid(fec468397c1f2ee4db13646fbe2c2757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/red_checklist_icon.png using Guid(fec468397c1f2ee4db13646fbe2c2757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cec977be0b801ed79a7af1d149d13b6') in 0.019814 seconds 
+  Import took 0.023841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 323.728216 seconds.
+  path: Assets/Images/Game Button.png
+  artifactKey: Guid(bc9af5e9a2fd98e4794f950913e43e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Game Button.png using Guid(bc9af5e9a2fd98e4794f950913e43e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca91ff87b1da636493a5635f43c04e3d') in 0.018992 seconds 
+  Import took 0.022948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.364580 seconds.
+  path: Assets/Images/Game Button.png
+  artifactKey: Guid(bc9af5e9a2fd98e4794f950913e43e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Game Button.png using Guid(bc9af5e9a2fd98e4794f950913e43e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18af27a1ea2b9e799af3bc07a20ae0f') in 0.026718 seconds 
+  Import took 0.030146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 347.910805 seconds.
   path: Assets/Screen_Prefabs/Home_Screen.prefab
   artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7674e8218240cc398ce2449c9e724b43') in 0.025915 seconds 
-  Import took 0.029822 seconds .
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1bf483db75eba6d3fa5e469c44832c5') in 0.071859 seconds 
+  Import took 0.075839 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.419735 seconds.
+  Time since last request: 0.000309 seconds.
   path: Assets/Screen_Prefabs/Login_Screen.prefab
   artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0256b3f780a935db58ae6e8656a1c57') in 0.007447 seconds 
-  Import took 0.010666 seconds .
+Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56f48bf6f80afbe3487c2788ec64797') in 0.047799 seconds 
+  Import took 0.052158 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 278.214574 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e335f093f73e26623d7c102bf55536be') in 0.006362 seconds 
-  Import took 0.009674 seconds .
+  Time since last request: 21.823638 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e846306cdaaa970ff400fd8e7db4208f') in 0.020396 seconds 
+  Import took 0.025362 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.609292 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4df306c646a938d71ee1fb957c0bc9') in 0.014783 seconds 
-  Import took 0.018116 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004724 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.422 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1422ms)
-		BeginReloadAssembly (140ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1197ms)
-			LoadAssemblies (110ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (450ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (414ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (302ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.1 MB.
-System memory in use after: 68.2 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1851.
-Total: 3.360800 ms (FindLiveObjects: 0.157200 ms CreateObjectMapping: 0.049400 ms MarkObjects: 3.106100 ms  DeleteObjects: 0.046800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 52.970258 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461752dec33cd1baecb108dd19429b2f') in 0.055745 seconds 
-  Import took 0.058909 seconds .
+  Time since last request: 7.855759 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e248bf6f9d5950349d811a8470d4b471') in 0.022887 seconds 
+  Import took 0.027188 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.347183 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0d1bb33c340b8ecaf5d6f5ea5aa2a7') in 0.011385 seconds 
-  Import took 0.016678 seconds .
+  Time since last request: 2.795091 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb8f5f92252c1f1e757754e7333bd19') in 0.025123 seconds 
+  Import took 0.029437 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.740416 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75376379ce20c5f2d7a1156c54ab9ed2') in 0.014044 seconds 
-  Import took 0.018665 seconds .
+  Time since last request: 1.177789 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9677d01fd37f5ff6a9c3a97cc9b0268') in 0.022505 seconds 
+  Import took 0.027903 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.432955 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093513301c626b15c6ae8de998777461') in 0.014676 seconds 
-  Import took 0.018791 seconds .
+  Time since last request: 3.196919 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48243d117e1f8060d6ee1473ceafc91f') in 0.019482 seconds 
+  Import took 0.023190 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 148.179376 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c6368d6292a7ee94d7db9ee6f08f25') in 0.016014 seconds 
-  Import took 0.020028 seconds .
+  Time since last request: 1.395730 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '144190df7640b6d4ee1f4aa0e8161bcd') in 0.017674 seconds 
+  Import took 0.020898 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.323424 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3beef94d87aea6fed1d89878d4ac16d5') in 0.015001 seconds 
-  Import took 0.019951 seconds .
+  Time since last request: 6.467267 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3ee0c7bdd3f6c06b0b346800444e5f') in 0.020469 seconds 
+  Import took 0.025153 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.000930 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86edcc2d37338a647799efdcd64e61f') in 0.017200 seconds 
-  Import took 0.022027 seconds .
+  Time since last request: 5.837127 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e14e75cf2e792cebe57bad6da664af') in 0.019496 seconds 
+  Import took 0.024860 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.191640 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9224e6a9b961ecde0a878a5864997ea1') in 0.013373 seconds 
-  Import took 0.017416 seconds .
+  Time since last request: 7.245062 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247d0c8f04d132db55e239cb5b562979') in 0.021994 seconds 
+  Import took 0.027438 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.049064 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '072384d7818daed022177f85fc1ec210') in 0.016505 seconds 
-  Import took 0.021039 seconds .
+  Time since last request: 14.932232 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1496609300eb6085d47f0c47f86702') in 0.023118 seconds 
+  Import took 0.027898 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.599136 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948c14b11ca4447b654d0a4f5f6772b5') in 0.019461 seconds 
-  Import took 0.023814 seconds .
+  Time since last request: 6.212092 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873eb7091326a6c8a0236229f3dfe89b') in 0.024962 seconds 
+  Import took 0.029141 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.979755 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdbb25b1d2bc07ff0d0207f6d39093f3') in 0.012748 seconds 
-  Import took 0.018542 seconds .
+  Time since last request: 24.253782 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649db0e27d56976ddbc944db5014da31') in 0.020864 seconds 
+  Import took 0.025475 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.603871 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90dc4b36be449c8bcd91e42ae062e0e2') in 0.012982 seconds 
-  Import took 0.017315 seconds .
+  Time since last request: 1.199976 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3667fb34963cce1a3a39ec037ec893b4') in 0.021074 seconds 
+  Import took 0.025023 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.394287 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47836a0c7a158945ff8d8bcfc2b8b8b3') in 0.014488 seconds 
-  Import took 0.018446 seconds .
+  Time since last request: 1.173405 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5236e3cf6311b977fe61b6d1cc7756a3') in 0.021533 seconds 
+  Import took 0.025025 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.326285 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2ba2e696ee52e810daca3c7dc2d08c') in 0.016070 seconds 
-  Import took 0.020432 seconds .
+  Time since last request: 4.229054 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d82d9cb50e93f2e86fe1ad5c07765c') in 0.024214 seconds 
+  Import took 0.028311 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.598420 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db47eaf12b95833f2eac749953b95d50') in 0.014900 seconds 
-  Import took 0.018759 seconds .
+  Time since last request: 6.432020 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a26d9b3a386a36e5fec7b15fd4dade') in 0.018859 seconds 
+  Import took 0.023827 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.739437 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b718309d38cbb3627e74d932230b392f') in 0.014343 seconds 
-  Import took 0.018290 seconds .
+  Time since last request: 4.418408 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6059ea90983271325b135529233f81f7') in 0.019389 seconds 
+  Import took 0.023290 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.670372 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55ca93afdef784ca888832f2901d64e') in 0.014168 seconds 
-  Import took 0.018330 seconds .
+  Time since last request: 6.031862 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f11e0cc8ce3fdcbd06fd542934bdedd0') in 0.019903 seconds 
+  Import took 0.023647 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.582004 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2873be534d6d6dc95c0efea807030be9') in 0.019637 seconds 
-  Import took 0.024772 seconds .
+  Time since last request: 2.192819 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453e83d08e96e791ca6a90fd5256bad8') in 0.020170 seconds 
+  Import took 0.024077 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.378380 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac052abdbaaf1d1da890e86f15cb0f4') in 0.024840 seconds 
-  Import took 0.030721 seconds .
+  Time since last request: 3.421507 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac9ad08fab89827eb1e8732a2c7ddf0') in 0.021833 seconds 
+  Import took 0.025843 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.021037 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2acfecfb9ba415996030b9d9498a0ca1') in 0.014823 seconds 
-  Import took 0.019750 seconds .
+  Time since last request: 13.106448 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40866c67330cd0e0153175cd658d69e7') in 0.024303 seconds 
+  Import took 0.029649 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.873286 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41761fa11ef9d48080812c2dd76d40b1') in 0.012374 seconds 
-  Import took 0.015985 seconds .
+  Time since last request: 2.368582 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b538f45ae71ea6b6d3ec2848ad7ee8') in 0.020082 seconds 
+  Import took 0.024498 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.625243 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5259e3c3428cec3a1788950ee17c122') in 0.014553 seconds 
-  Import took 0.019256 seconds .
+  Time since last request: 24.604243 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c094f7a8604148ab804925265d4095') in 0.019341 seconds 
+  Import took 0.023342 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.222973 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a61e2d8f630742a1c97a8544b515e3') in 0.011202 seconds 
-  Import took 0.014772 seconds .
+  Time since last request: 7.694386 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e48c062e1e1682afd7a0db5611c3800') in 0.019176 seconds 
+  Import took 0.023994 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.888524 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f00d9f68bbba4bc73397147da59d01') in 0.016584 seconds 
-  Import took 0.021246 seconds .
+  Time since last request: 6.423377 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d4de0eb82aea744261c31979476bdb') in 0.022160 seconds 
+  Import took 0.026789 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.993654 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7326db95f45a0c7c1d886538fd032309') in 0.012652 seconds 
-  Import took 0.016302 seconds .
+  Time since last request: 8.453082 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282f25b5f00d122b2cbdc9cab718850d') in 0.025175 seconds 
+  Import took 0.030015 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.496101 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72aec2fa641f9228589235b4b9f39f41') in 0.017127 seconds 
-  Import took 0.023737 seconds .
+  Time since last request: 13.938319 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d67362376bc7b1f23604cc0ec67352') in 0.024340 seconds 
+  Import took 0.028208 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.379164 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b676cb7b59377d7ecb0cca898122cd') in 0.011247 seconds 
-  Import took 0.015550 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.418440 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a44daefdcc2ce73d791c2a4ca2317ab') in 0.017015 seconds 
-  Import took 0.022844 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.276363 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d057fb65916d5e25de33eaddb54563d') in 0.015506 seconds 
-  Import took 0.020370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.672548 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d42605ad5e8d5b84cc3fb6c1b4ed6f') in 0.014826 seconds 
-  Import took 0.019139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.811823 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f101998e37ca51b963034c38a6fb5b6') in 0.012584 seconds 
-  Import took 0.016284 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.164065 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a57050d0cfe8ede5864d5db6103e1b') in 0.018127 seconds 
-  Import took 0.022654 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.609055 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f587af0c7fc9c7383984cc519609f3da') in 0.011390 seconds 
-  Import took 0.014970 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.400308 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb967fca3d55bb9572fa3f4e8cea4901') in 0.014571 seconds 
-  Import took 0.019166 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.990095 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ae73022d49740fc150e89a44135179') in 0.015914 seconds 
-  Import took 0.020356 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.690174 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c17d502c37c3a87f453bdf603e9cc30') in 0.014591 seconds 
-  Import took 0.018375 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.399382 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea50127c1bbe6f3d87051df6989d4fe2') in 0.012827 seconds 
-  Import took 0.017384 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.614250 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd3af7b282528e53b45cd83cf6ae6462') in 0.013419 seconds 
-  Import took 0.018461 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.222312 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd88da7843a8f09b2dc95650296376a5') in 0.019377 seconds 
-  Import took 0.024143 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.591762 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4565a32fb9f01a9503316b04d70b29') in 0.015839 seconds 
-  Import took 0.020448 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.957774 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887775f6c996cccb8e00f846d06a2962') in 0.013775 seconds 
-  Import took 0.018402 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.530724 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd4b3e805e7806542cc7f4717c69ece') in 0.013768 seconds 
-  Import took 0.017728 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.816180 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd9e730d156cb0a5d8fcaf9d5c7096a') in 0.013698 seconds 
-  Import took 0.017424 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.978811 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519fe7cb595faf8f8907a10a46c67df3') in 0.014122 seconds 
-  Import took 0.018844 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.632903 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e33a7f7fcfa28fe52d00743c1622201') in 0.010663 seconds 
-  Import took 0.014432 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.362014 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cacccbf558c0939e087e081596d1068') in 0.017167 seconds 
-  Import took 0.022888 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.605186 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428f8785308028853368407e3b8078a2') in 0.013642 seconds 
-  Import took 0.018366 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.588361 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59d802d5d308aa998912b308a22d484') in 0.014087 seconds 
-  Import took 0.018082 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.831184 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f992f040482c553db43c07d2a9ff1c6') in 0.012901 seconds 
-  Import took 0.018450 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.039435 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc4da2f4a079add8cd7f8100949684f') in 0.013361 seconds 
-  Import took 0.017781 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.433149 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67191aa1ce27e6738764852247c25c8a') in 0.013610 seconds 
-  Import took 0.018840 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005628 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.280 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1280ms)
-		BeginReloadAssembly (145ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (1057ms)
-			LoadAssemblies (110ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (388ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (358ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (269ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.1 MB.
-System memory in use after: 68.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1853.
-Total: 4.228400 ms (FindLiveObjects: 0.304800 ms CreateObjectMapping: 0.221100 ms MarkObjects: 3.634300 ms  DeleteObjects: 0.066300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 36.904865 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bea2ababdf5781edb73285c60316658') in 0.065938 seconds 
-  Import took 0.070345 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.545299 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3695c6d39ca3ab1f99e9768e15c01d') in 0.013559 seconds 
-  Import took 0.018523 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005242 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.595 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1596ms)
-		BeginReloadAssembly (180ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (1303ms)
-			LoadAssemblies (153ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (473ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (450ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (336ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.2 MB.
-System memory in use after: 68.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1855.
-Total: 3.877500 ms (FindLiveObjects: 0.156200 ms CreateObjectMapping: 0.050600 ms MarkObjects: 3.566800 ms  DeleteObjects: 0.102000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 100.966748 seconds.
+  Time since last request: 125.213689 seconds.
   path: Assets/Screen_Prefabs/Login_Screen 1.prefab
-  artifactKey: Guid(2f00e37c547e5854e87198d0c3c7b101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen 1.prefab using Guid(2f00e37c547e5854e87198d0c3c7b101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a368a5af48d66b26c85968044e61427') in 0.088055 seconds 
-  Import took 0.093003 seconds .
+  artifactKey: Guid(a7e4e132a6ef0384ab3c70a0bc3432f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Login_Screen 1.prefab using Guid(a7e4e132a6ef0384ab3c70a0bc3432f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bfbe2316ccb70c32b9a39440ada6633') in 0.019169 seconds 
+  Import took 0.023097 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1def836e3ef7377377b6ba6d56d71058') in 0.017329 seconds 
-  Import took 0.021717 seconds .
+  Time since last request: 70.962984 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc4768370e287371de4b8de3fd8f912') in 0.021850 seconds 
+  Import took 0.026190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.610357 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75caf4c99e65f4a0c1fb550d51540abb') in 0.021893 seconds 
+  Import took 0.026731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.953581 seconds.
+  path: Assets/Scenes/Homepage.unity
+  artifactKey: Guid(ffc47a1016deb9b44800172c2714bdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Homepage.unity using Guid(ffc47a1016deb9b44800172c2714bdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb7977fde75ca90dd78bb2d4214c172') in 0.009064 seconds 
+  Import took 0.012261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.282963 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7dbaf495d4482d6a1508b9fbf343636') in 0.027223 seconds 
+  Import took 0.031852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.165559 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0811d3ac03af69b6edfb7c3b88c660f') in 0.023551 seconds 
+  Import took 0.027560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.603332 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04952b7276b68a4d70d70c64cf85530d') in 0.023408 seconds 
+  Import took 0.028866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.247309 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8e82e069c9b87a0a78ded27d895d88') in 0.023948 seconds 
+  Import took 0.028649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.233522 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ccf1febf153070b06370eb7fc7beab') in 0.021930 seconds 
+  Import took 0.025733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.642246 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2595be40f768a5a4d655ad63750ba872') in 0.021381 seconds 
+  Import took 0.025085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.621876 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca21474175742b2b4b5bef11c930ecb7') in 0.025707 seconds 
+  Import took 0.029849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.969086 seconds.
+  path: Assets/Scenes/LoginPage.unity
+  artifactKey: Guid(ac2cda01937caac47a8afde7f631cced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LoginPage.unity using Guid(ac2cda01937caac47a8afde7f631cced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10eaf091483b1f628e2078acd7a19ebc') in 0.010270 seconds 
+  Import took 0.013148 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003801 seconds.
+Registered in 0.004503 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.205 seconds
+- Completed reload, in  1.387 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1206ms)
-		BeginReloadAssembly (145ms)
+	ReloadAssembly (1387ms)
+		BeginReloadAssembly (146ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (984ms)
-			LoadAssemblies (108ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1156ms)
+			LoadAssemblies (101ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (341ms)
+			SetupTypeCache (354ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (359ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (272ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.2 MB.
-System memory in use after: 68.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1857.
-Total: 3.701900 ms (FindLiveObjects: 0.162800 ms CreateObjectMapping: 0.044400 ms MarkObjects: 3.447500 ms  DeleteObjects: 0.045500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 254.042585 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dabb6fd6fdb848cf6fc26445d7bce100') in 0.064161 seconds 
-  Import took 0.068124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.519191 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5069b827946fd9c6968f82537350a350') in 0.006564 seconds 
-  Import took 0.010095 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.442982 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564c4210861c84417c4dda8566d16ed9') in 0.005872 seconds 
-  Import took 0.009086 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.203743 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f985c48564faf9c3f80b57bde71f317') in 0.007303 seconds 
-  Import took 0.011689 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.221671 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa72370d236219eb3a8ebd9212626ea') in 0.006777 seconds 
-  Import took 0.010363 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.838605 seconds.
-  path: Assets/Scenes/LoginPage.unity
-  artifactKey: Guid(ac2cda01937caac47a8afde7f631cced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LoginPage.unity using Guid(ac2cda01937caac47a8afde7f631cced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f919c2e47debe08aff10f89e57eb0d8') in 0.008945 seconds 
-  Import took 0.012515 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 609.514901 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cafb877fb0bd2bc953f1b2d803548b5') in 0.020382 seconds 
-  Import took 0.025225 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.913884 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8272393538f8420819be99d15003e446') in 0.016352 seconds 
-  Import took 0.020521 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.330509 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5cded8247fc554b33155c2aed32113c') in 0.012159 seconds 
-  Import took 0.016389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.542343 seconds.
-  path: Assets/Scenes/LoginPage.unity
-  artifactKey: Guid(ac2cda01937caac47a8afde7f631cced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LoginPage.unity using Guid(ac2cda01937caac47a8afde7f631cced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7729ea8fa2b7b8044ea0c5011cf099') in 0.003369 seconds 
-  Import took 0.006383 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004573 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.277 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1278ms)
-		BeginReloadAssembly (144ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (1043ms)
-			LoadAssemblies (118ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (392ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (354ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (509ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (250ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.2 MB.
-System memory in use after: 68.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1859.
-Total: 3.430900 ms (FindLiveObjects: 0.157900 ms CreateObjectMapping: 0.041400 ms MarkObjects: 3.176000 ms  DeleteObjects: 0.054500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 72.111987 seconds.
-  path: Assets/Scenes/LoginPage.unity
-  artifactKey: Guid(ac2cda01937caac47a8afde7f631cced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LoginPage.unity using Guid(ac2cda01937caac47a8afde7f631cced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bbb1dbb75d05d6eee4599a058af4c37') in 0.014607 seconds 
-  Import took 0.018102 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.347246 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44febbb1a01b9100f0db8e17c49036df') in 0.052749 seconds 
-  Import took 0.056779 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.331619 seconds.
-  path: Assets/Screen_Prefabs/Login_Screen.prefab
-  artifactKey: Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Screen_Prefabs/Login_Screen.prefab using Guid(cd8864cb75df0ff48b569005aedaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759307cc7b2dfe2896f52479892e6b5e') in 0.013307 seconds 
-  Import took 0.017254 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004794 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.268 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1268ms)
-		BeginReloadAssembly (140ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1034ms)
-			LoadAssemblies (118ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (366ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (362ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (269ms)
+				ProcessInitializeOnLoadAttributes (415ms)
 				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
@@ -1136,11 +800,11 @@ Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.2 MB.
-System memory in use after: 68.3 MB.
+System memory in use before: 68.6 MB.
+System memory in use after: 68.8 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1861.
-Total: 4.236200 ms (FindLiveObjects: 0.238900 ms CreateObjectMapping: 0.050800 ms MarkObjects: 3.897700 ms  DeleteObjects: 0.047500 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1891.
+Total: 3.434200 ms (FindLiveObjects: 0.156300 ms CreateObjectMapping: 0.044200 ms MarkObjects: 3.130900 ms  DeleteObjects: 0.102000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1152,4 +816,35 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 343.487919 seconds.
+  path: Assets/Screen_Prefabs/Home_Screen.prefab
+  artifactKey: Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen_Prefabs/Home_Screen.prefab using Guid(b8f71d63ed94acd489d1dfe020680fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b398349b0c3ec42eb42a6effb9c4d89') in 0.138870 seconds 
+  Import took 0.142886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.730264 seconds.
+  path: Assets/Scenes/Guide Test.unity
+  artifactKey: Guid(fb28d5ed01ff12b4987b80684390b091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Guide Test.unity using Guid(fb28d5ed01ff12b4987b80684390b091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea71e38f2c55323cd940f65d20dc2e4') in 0.011241 seconds 
+  Import took 0.014966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 125.230980 seconds.
+  path: Assets/Guide
+  artifactKey: Guid(b66d28a8ee647234a990c10744e6a0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guide using Guid(b66d28a8ee647234a990c10744e6a0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e5f918274a8fd50f3b711d32b52bba') in 0.010471 seconds 
+  Import took 0.014567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 133.907341 seconds.
+  path: Assets/Guide/MQ Avatar.vrm
+  artifactKey: Guid(0e91d431832be8c48b47dae856c7cb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guide/MQ Avatar.vrm using Guid(0e91d431832be8c48b47dae856c7cb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa3a2077e5f940ced0ee6a7e96966a7') in 0.012877 seconds 
+  Import took 0.015964 seconds .
+
